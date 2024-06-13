@@ -1,0 +1,65 @@
+/* .body {
+  background-image: url("/front-end/src/img/picture.jpg");
+} */
+
+.loginBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://cdn.pixabay.com/photo/2024/05/05/05/55/goose-8740266_1280.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.wendoBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/736x/7c/7b/af/7c7baf4ae99698f89ed01d975f248aa5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.yirgaBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://cdn.pixabay.com/photo/2018/11/17/22/15/trees-3822149_1280.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.stGabriel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://visitsidama.travel/wp-content/uploads/2021/06/St.Gebriel.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.fiche {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://ich.unesco.org/img/photo/thumb/09285-BIG.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.loginForm {
+  background-color: rgba(255, 255green, 255, 0.33);
+  box-shadow: 0px 8px 32px 0 rgba(0, 0, 255, 0.1);
+  backdrop-filter: blur(2px);
+  padding: 0px 24px 24px 24px;
+  border-radius: 16px;
+}
