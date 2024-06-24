@@ -2,6 +2,10 @@ const mongoose = require("mongoose");
 
 const adminSchema = new mongoose.Schema(
   {
+    _id: {
+      type: mongoose.Schema.Types.ObjectId,
+      auto: true,
+    },
     name: {
       type: String,
       required: true,
@@ -18,8 +22,8 @@ const adminSchema = new mongoose.Schema(
     role: { type: String, default: "Admin" },
     // role: {
     //   type: String,
-    //   // enum: ["admin", "tourguide"],
-    //   // default: "tourguide",
+    //   enum: ["admin", "tourguide"],
+    //   default: "tourguide",
     // },
   },
   { timestamps: true }

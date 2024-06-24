@@ -165,12 +165,12 @@ const AdminLogin = () => {
           >
             Login
           </button>
-          {/* <Link
+          <Link
             className="font-sm ml-12 text-blue-500 mt-16"
             to="/adminRegister"
           >
             Register
-          </Link> */}
+          </Link>
         </form>
       </div>
       <ToastContainer />
