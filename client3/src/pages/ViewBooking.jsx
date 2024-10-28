@@ -39,7 +39,7 @@ const ViewBooking = () => {
           `${API_BASE_URL}/book/guide/${guideId}`
         );
         // const data = await response.json();
-        // console.log("booking:", response.data);
+        console.log("booking:", response.data);
         setBookings(response.data);
       } catch (error) {
         console.error("Error fetching tour guides:", error);
@@ -138,6 +138,13 @@ const ViewBooking = () => {
                       theme === "light" ? "" : "dark:bg-gray-700 text-white "
                     }`}
                   >
+                    Phone
+                  </th>
+                  <th
+                    className={`${
+                      theme === "light" ? "" : "dark:bg-gray-700 text-white "
+                    }`}
+                  >
                     Package
                   </th>
                   <th
@@ -169,7 +176,8 @@ const ViewBooking = () => {
                   filteredBookings.map((book, index) => (
                     <tr key={book._id}>
                       <th>{index + 1}</th>
-                      <td>{book.user._id}</td>
+                      <td>{book.user.username}</td>
+                      <td>{book.user.contactInformation}</td>
                       <td>{book.package.name}</td>
                       <td>{new Date(book.createdAt).toLocaleString()}</td>
 
